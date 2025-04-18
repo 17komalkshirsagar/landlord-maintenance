@@ -1,8 +1,6 @@
 import { FiUsers, FiDollarSign, FiShoppingCart } from "react-icons/fi";
 
-// import Sidebar from "./Sidebar";
 import { SidebarOpen } from "lucide-react";
-// import Navbar from "./Navbar";
 const AdminDashboard = () => {
     return (
         <div className="flex h-screen bg-gray-100">
@@ -19,11 +17,6 @@ const AdminDashboard = () => {
                     <h2 className="text-2xl font-semibold text-gray-700">Dashboard</h2>
 
 
-                    {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                        <DashboardCard title="Total Users" value="1,234" icon={<FiUsers size={24} />} />
-                        <DashboardCard title="Revenue" value="$45,678" icon={<FiDollarSign size={24} />} />
-                        <DashboardCard title="Orders" value="987" icon={<FiShoppingCart size={24} />} />
-                    </div> */}
 
                     {/* Recent Activity Table */}
                     <div className="mt-8 bg-white shadow-md rounded-lg p-4">
